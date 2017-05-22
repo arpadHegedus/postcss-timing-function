@@ -35,7 +35,7 @@ var gulp            = require('gulp'),
     timingFunction  = require('postcss-timing-function');
 
 gulp.task('css', function() {
-    gulp.src('path/to/dev-css').
+    gulp.src('path/to/dev/css').
         .pipe(postcss({
             timingFunction
         }))
