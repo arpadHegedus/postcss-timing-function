@@ -1,0 +1,20 @@
+{
+  "name": "postcss-color-function",
+  "description": "A postcss plugin to add other common named timing functions without having to remember bezier values",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "Arpad Hegedus",
+      "email": "hegedus.arpad@gmail.com",
+      "web": "http://arpadhegedus.com"
+    }
+  ],
+  "main": "index.js",
+  "repository" : { 
+    "type": "git", 
+    "url": "https://github.com/arpadHegedus/postcss-timing-function.git"
+  },
+  "dependencies": {
+    "postcss": "^5.2.12"
+  }
+}
