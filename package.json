@@ -1,5 +1,5 @@
 {
-  "name": "postcss-color-function",
+  "name": "postcss-timing-function",
   "description": "A postcss plugin to add other common named timing functions without having to remember bezier values",
   "version": "1.0.0",
   "maintainers": [
