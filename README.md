@@ -1,5 +1,3 @@
-#postcss-timing-function
-
 A [PostCSS] plugin to add other common named timing functions without having to remember bezier values.
 
 [PostCSS]: https://github.com/postcss/postcss
