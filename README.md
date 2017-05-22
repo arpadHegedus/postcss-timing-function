@@ -30,14 +30,14 @@ body {
 Using [Gulp].
 
 ```js
-var gulp        = require('gulp'),
-    postcss     = require('gulp-postcss'),
-    googleColor = require('postcss-google-color');
+var gulp            = require('gulp'),
+    postcss         = require('gulp-postcss'),
+    timingFunction  = require('postcss-timing-function');
 
 gulp.task('css', function() {
     gulp.src('path/to/dev-css').
         .pipe(postcss({
-            googleColor
+            timingFunction
         }))
         .pipe(gulp.dest('path/to/build/css'));
 });
